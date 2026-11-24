@@ -38,7 +38,7 @@ PyInstaller output must be validated on Windows; this source ZIP does not contai
 - Chart recommendation/validation and PNG export; cleaned export to CSV, Parquet,
   Excel, JSON and JSON Lines. The original source is never overwritten.
 
-## Behaviours worth knowing (v0.3.1)
+## Behaviours worth knowing 
 
 - Empty CSV cells are always treated as missing. Words such as `NA`/`null` are also treated as missing by default;
   the import tells you when that changed text values (edit the list in the import options).
